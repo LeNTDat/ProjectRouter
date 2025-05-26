@@ -1,14 +1,13 @@
 import { Link } from "react-router";
+import classes from "../style/components/Navigation.module.css"
 
 function NavNavigation() {
-    return <header>
+    return <header className={classes.header}>
         <nav>
-            <ul>
+            <ul className={classes.list}>
                 <li>
                     <Link to={"/"}>HomePage</Link>
                 </li>
-            </ul>
-            <ul>
                 <li>
                     <Link to={"/products"}>Products</Link>
                 </li>
