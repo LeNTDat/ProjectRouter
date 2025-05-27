@@ -9,7 +9,7 @@ function NavNavigation() {
                     <Link to={"/"}>HomePage</Link>
                 </li>
                 <li>
-                    <Link to={"/products"}>Products</Link>
+                    <Link to={"products"}>Products</Link>
                 </li>
             </ul>
         </nav>
